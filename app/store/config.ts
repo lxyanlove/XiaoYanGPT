@@ -35,7 +35,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "llama-2-70b,claude-instant,spark1.5,spark2",
+  customModels: "llama-2-7b,llama-2-70b,llama-2-13b,claude-instant,claude-2-100k,claude-100k,spark1.5,spark2,mj",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
